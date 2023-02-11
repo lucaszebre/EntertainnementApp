@@ -1,0 +1,102 @@
+.RecommendTitle{
+    margin-top: 3em;
+    font-weight: 400;
+    color: white;
+    margin-top: 1em;
+    width: 100%;
+    text-align: start;
+    margin-left: 2em;
+    
+    margin-bottom: 1.5em;
+}
+
+.RecommendTitle p{
+    margin-top: 1em;
+    font-family: 'Barlow';
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+
+.RecommendCard{
+    width: 14vw;
+    height:8.7vw;
+}
+
+
+.RecommendCardContainer{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 97%;
+}
+
+.RecommendContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 1.5em;
+}
+
+.RecommendWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    padding-right: 2em;
+}
+
+.RecommendCardCols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+@media (max-width:1024px) and (min-width: 768px) {
+    .RecommendCard{
+        width: 20vw;
+        height: 12vw;
+    }
+    .RecommendCardContainer{
+        display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(8, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 100%;
+    }
+    .RecommendContainer{
+        margin-left: 0;
+    }
+    .RecommendWrap{
+        margin-right: 3em;
+    }
+}
+
+@media (max-width:768px)  {
+    .RecommendCardContainer{
+        display: grid;display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;}
+
+        .RecommendWrap{
+            margin-right: 0;
+            padding-right: 0;
+        }
+
+    }

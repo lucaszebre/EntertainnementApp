@@ -1,0 +1,123 @@
+.ImageEntertainnement{
+    width:32.63vw;
+    height: 15.97vw;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+.ImageEntertainnement:hover{
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+    
+}
+
+.ImgContainer{
+    overflow: hidden;
+}
+
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-right: 1em;
+    position: relative;
+    box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+    
+}
+
+
+
+
+.BookMark{
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.CircleBookmark{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    border-radius: 50%;
+    padding: .5em;
+    backdrop-filter: brightness(0.5);
+}
+
+.CardBlock1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.Containner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    position: absolute;
+    color: white;
+    bottom: 1em;
+    left: 1em;
+}
+
+.CardDate, .CardType,.svg-card,.CardRating{
+    margin-right: 0.5em;
+    color: gray ;
+    font-weight: 800;
+    font-family: 'Barlow';
+}
+
+.CardTitle{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Barlow';
+}
+
+.PlayBlock{
+    cursor: pointer;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+    position: absolute;
+    backdrop-filter: brightness(0.5);
+    padding: 1.5em 3em 1.5em 3em;
+    border-radius: 3rem;
+}
+
+.PlayText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Barlow';
+    margin-left: .5em;
+}
+@media (max-width:1024px)  {
+    .ImageEntertainnement{
+        width:45.89vw;
+        height:22.46vw;
+        min-width: 240px;
+    min-height: 140px;
+    }
+}
+
+@media (max-width:768px)  {
+    .PlayBlock{
+        padding: 0.8em 1em 0.8em 1em;
+    }
+}
+

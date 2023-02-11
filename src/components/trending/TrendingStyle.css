@@ -1,0 +1,44 @@
+.TrendingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left:1.5em;
+    margin-right: 15em;
+    
+}
+
+.TrendingCardContainer{
+    /* margin-left: 2em; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 95%;
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.TrendingTitle{
+    text-shadow: -2px -1px 3px rgba(0,0,0,0.6);
+
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1em;
+    font-family: 'Barlow';
+    margin-top: 1em;
+}
+
+@media (max-width:1024px) and (min-width: 768px) {
+    .TrendingContainer{
+        margin-left: 0;
+    }
+
+    .TrendingCardContainer{
+        width: 100%;
+        overflow-x: scroll;
+    }
+} 

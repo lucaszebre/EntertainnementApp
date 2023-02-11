@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Fraunces', serif; 
+  
+}
+body{
+  background-color: #10141E; 
+  font-family: 'Barlow', sans-serif;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+}

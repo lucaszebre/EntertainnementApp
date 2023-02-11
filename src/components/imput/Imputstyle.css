@@ -1,0 +1,55 @@
+.ImputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    margin-left: 1em;
+}
+
+.ImputWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.input{
+    margin-left: 1em;
+    border: none;
+    background: none;
+    font-size: 1.4vw;
+    outline: none;
+    color: white;
+    width: 30rem;
+}
+
+.input::placeholder{
+    color: gray;
+    font-family: 'Barlow';
+}
+
+.logo-imput{
+    width: 3vw;
+    height: 3vw;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .input{
+        font-size: 3vw;
+    }
+
+}
+
+@media (max-width:768px){
+    .input{
+        font-size: 5vw;
+    }
+
+    .logo-imput{
+        width: 5vw;
+        height: 5vw;
+    }
+}

@@ -1,0 +1,153 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 48vw;
+    
+    box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 10px 57px -16px rgba(0,0,0,0.75);
+}
+
+.SideBarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    background-color: #161D2F;
+    border-radius: .5rem;
+}
+
+.SideBarList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.SideBarItems{
+    margin-top: .5em;
+}
+
+.SidebarWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 45%;
+}
+
+.SideBarAvatar{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.SideBarLogo{
+    width: 3vw;
+    height: 3vw;
+}
+
+
+
+.SideBarItems{
+    width: 1.7vw;
+    height: 1.7vw;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .Sidebar{
+        flex-direction: row;
+        height: unset;
+        width: 90%;
+        margin-top: 1em;
+    }
+    .SideBarList{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .SideBarContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 10%;
+    }
+
+    .SidebarWrap{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        height: 100%;
+    }
+
+    .SideBarItems{
+        display: flex;
+        width: 4vw;
+        height: 4vw;
+        margin-top: unset;
+    }
+}
+
+@media (max-width:768px){
+    .Sidebar{
+        flex-direction: row;
+        height: unset;
+        width: 100%;
+    }
+    .SideBarList{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .SideBarContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 10%;
+    }
+
+    .SidebarWrap{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        height: 100%;
+    }
+
+    .SideBarItems{
+        display: flex;
+        width: 5vw;
+        height: 5vw;
+        margin-top: unset;
+        margin-right: 0.5em;
+    }
+
+    .SideBarAvatar{
+        width: 5vw;
+        height: 5vw;
+        min-width: 25px;
+        min-height: 25px;
+    }
+
+    .SideBarLogo{
+        min-width: 25px;
+        min-height: 20px;
+    }
+}
+
+@media (max-width:350px){
+    .SidebarWrap{
+        width: 50%;
+    }
+
+}
